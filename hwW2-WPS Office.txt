@@ -1,0 +1,27 @@
+﻿Python program to return if given number is even or odd
+
+    n = int(input("enter the number to check whether the given number is even or odd :"))
+// takes the input value
+    if(n%2==0) ://here % function returns the remainder value 
+// checks whether the given condition is true or not
+// if condition is true then below set of statements are executed 
+            print(n, "is even")
+// prints that the number is even
+        else:
+// if the condition is false then below statements are executed
+              print(n, " is odd ") 
+// prints that the number is odd
+   
+
+
+
+
+
+
+Bonus question:
+       n= int(input(" Enter the numberto check if it is even or odd "))
+// takes the input 
+       print(" The number is even"*(n%2 == 0) ) // here
+// if the condition n%2==0 is true , prints the number is even
+       print(" The number is odd"*(n%2! =0))
+// if the condition n%2!=0 is true , prints the number is odd 
